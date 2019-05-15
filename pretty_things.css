@@ -10,7 +10,7 @@ p {
   font-family: Helvetica;
   font-size: x-large;
 }
-h1{
+h1 {
   margin-left: 600px;
   color: rgb(11, 99, 11);
 }
@@ -247,10 +247,6 @@ svg {
   top: 0;
   left: 0;
   display: none;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  }
 }
 
 /* ~ This is Dragon CSS ~ END ~ */
