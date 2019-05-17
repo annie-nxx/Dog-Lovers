@@ -16,14 +16,14 @@ h1 {
 }
 
 /* ~ This is Toast CSS ~ */
-.table {
+.TnE-table {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.plate {
+.TnE-plate {
   position: relative;
   width: 30em;
   max-width: 80vmin;
@@ -37,7 +37,7 @@ h1 {
   box-shadow: -10px 10px 5px grey;
 }
 
-.plate-inner {
+.TnE-plate-inner {
   position: relative;
   border: 10px dotted #d6eff1;
   width: 80%;
@@ -49,7 +49,7 @@ h1 {
   box-shadow: inset 10px -2px 5px 10px #e8e3e3;
 }
 
-.toast-shadow {
+.TnE-toast-shadow {
   z-index: 1;
   position: absolute;
   top: 16vmin;
@@ -79,7 +79,7 @@ h1 {
     top: 9rem;
   }
 }
-.toast {
+.TnE-toast {
   position: absolute;
   overflow: hidden;
   height: 20em;
@@ -96,7 +96,7 @@ h1 {
   animation-timing-function: ease-in-out;
 }
 
-.toast-inner {
+.TnE-toast-inner {
   position: relative;
   height: 20em;
   max-height: 66vmin;
@@ -110,7 +110,7 @@ h1 {
   left: -4px;
 }
 
-.egg-shadow {
+.TnE-egg-shadow {
   z-index: 1;
   position: absolute;
   width: 15em;
@@ -138,7 +138,7 @@ h1 {
     transform: rotateX(-35deg) rotate(-35deg) translate(15rem, -10rem);
   }
 }
-.egg {
+.TnE-egg {
   position: absolute;
   z-index: 1;
   transform: rotateX(-35deg) translate(1rem, -3rem);
@@ -148,7 +148,7 @@ h1 {
   animation-timing-function: ease-in-out;
 }
 
-.eggwhite {
+.TnE-eggwhite {
   width: 15em;
   max-width: 50vmin;
   height: 8em;
@@ -158,7 +158,7 @@ h1 {
   box-shadow: -5px 5px 1px #e6dcb8;
 }
 
-.eggyolk {
+.TnE-eggyolk {
   position: relative;
   width: 5.5em;
   max-width: 30vmin;
